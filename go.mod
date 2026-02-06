@@ -1,4 +1,4 @@
-module proto-definition
+module github.com/siripat01/proto-definitions-kosenstudent
 
 go 1.25.6
 

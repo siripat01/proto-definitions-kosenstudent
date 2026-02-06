@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package user.v1;
-option go_package = "github.com/siripat01/user-service/gen/userpb;userpb";
+option go_package = "github.com/siripat01/proto-definitions-kosenstudent/gen/userpb;userpb";
 
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/empty.proto";
