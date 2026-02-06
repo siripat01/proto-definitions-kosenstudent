@@ -7,14 +7,13 @@
 package userpb
 
 import (
-	reflect "reflect"
-	sync "sync"
-	unsafe "unsafe"
-
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
+	reflect "reflect"
+	sync "sync"
+	unsafe "unsafe"
 )
 
 const (
@@ -405,7 +404,7 @@ const file_user_user_proto_rawDesc = "" +
 	"\tListUsers\x12\x16.google.protobuf.Empty\x1a\x1a.user.v1.ListUsersResponse\x127\n" +
 	"\n" +
 	"UpdateUser\x12\x1a.user.v1.UpdateUserRequest\x1a\r.user.v1.User\x12E\n" +
-	"\x0eDeleteUserById\x12\x1b.user.v1.GetUserByIdRequest\x1a\x16.google.protobuf.EmptyB5Z3github.com/siripat01/proto-definitions-kosenstudent/gen/userpb;userpbb\x06proto3"
+	"\x0eDeleteUserById\x12\x1b.user.v1.GetUserByIdRequest\x1a\x16.google.protobuf.EmptyBGZEgithub.com/siripat01/proto-definitions-kosenstudent/gen/userpb;userpbb\x06proto3"
 
 var (
 	file_user_user_proto_rawDescOnce sync.Once
